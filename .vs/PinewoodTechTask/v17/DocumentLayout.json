@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projects\\PinewoodTechTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\interfaces\\icustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\interfaces\\icustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T15:28:16.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T15:27:50.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T14:53:34.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICustomerDTO.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Interfaces\\ICustomerDTO.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Interfaces\\ICustomerDTO.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Interfaces\\ICustomerDTO.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\Interfaces\\ICustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:41:00.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:39:58.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
