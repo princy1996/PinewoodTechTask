@@ -1,4 +1,5 @@
-﻿using PinewoodTechTaskAPI.Interfaces;
+﻿using PinewoodTechAPI.Interfaces;
+using PinewoodTechTaskAPI.Interfaces;
 
 namespace PinewoodTechTaskAPI.Services
 {
@@ -6,27 +7,27 @@ namespace PinewoodTechTaskAPI.Services
     {
         public CustomerService() { }
 
-        public async Task GetCustomer(int id)
+        public async Task<object> GetCustomer(int id)
         {
 
         }
 
-        public async Task GetCustomers()
+        public async Task<object> GetCustomers()
         {
 
         }
 
-        public async Task PutCustomer(int id)
+        public async Task<object> PutCustomer(int id, ICustomerDTO updateCustomer)
         {
 
         }
 
-        public async Task PostCustomer()
+        public async Task<object> PostCustomer(ICustomerDTO newCustomer)
         {
 
         }
 
-        public async Task DeleteCustomer(int id)
+        public async Task<object> DeleteCustomer(int id)
         {
 
         }

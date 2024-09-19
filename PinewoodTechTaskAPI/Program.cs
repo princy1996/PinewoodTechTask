@@ -1,11 +1,11 @@
+using PinewoodTechTaskAPI.Config;
+
 var builder = WebApplication.CreateBuilder(args);
-
+var config = new Config();
 // Add services to the container.
+builder.Configuration.Bind("AppConfig", config);
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddServices(config);
 
 var app = builder.Build();
 
