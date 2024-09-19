@@ -4,7 +4,11 @@ namespace PinewoodTechAPI.DTOs
 {
     public class CustomerDTO : ICustomerDTO
     {
-        public CustomerDTO(int customerId, string firstName, string lastName, string email, string phoneNumber, string address, string city, string region, string postalCode, string country)
+        public CustomerDTO()
+        {
+        }
+
+        public CustomerDTO(int customerId, string firstName, string lastName, string email, int phoneNumber, string address, string city, string region, string postalCode, string country)
         {
             CustomerId = customerId;
             FirstName = firstName;
@@ -21,7 +25,7 @@ namespace PinewoodTechAPI.DTOs
         public required string FirstName { get; set; }
         public required string LastName { get; set; }
         public required string Email { get; set; }
-        public required string PhoneNumber { get; set; }
+        public required int PhoneNumber { get; set; }
         public required string Address { get; set; }
         public required string City { get; set; }
         public required string Region { get; set; }

@@ -1,5 +1,7 @@
-﻿using PinewoodTechTaskAPI.Interfaces;
+﻿using Microsoft.Data.SqlClient;
+using PinewoodTechTaskAPI.Interfaces;
 using PinewoodTechTaskAPI.Services;
+using System.Data;
 
 namespace PinewoodTechTaskAPI.Config
 {
@@ -12,6 +14,7 @@ namespace PinewoodTechTaskAPI.Config
             services.AddSwaggerGen();
             services.AddSingleton(config);
             services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IDbConnection>((x) => new SqlConnection(config.ConnectionString));
             return services;
         }
     }

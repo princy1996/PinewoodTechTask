@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PinewoodTechAPI.DTOs;
 using PinewoodTechAPI.Interfaces;
 using PinewoodTechTaskAPI.Interfaces;
 
@@ -9,53 +10,86 @@ namespace PinewoodTechTaskAPI.Controllers
     [Route("[controller]")]
     public class CustomerController : Controller
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<CustomerController> _logger;
         private readonly ICustomerService _customerService;
 
-        public CustomerController(ILogger<WeatherForecastController> logger, ICustomerService customerService)
+        public CustomerController(ILogger<CustomerController> logger, ICustomerService customerService)
         {
             _logger = logger;
             _customerService = customerService;
         }
 
-        [HttpGet(Name = "GetCustomer")]
+        [HttpGet]
+        [Route("Api/[controller]/GetCustomer/{id}")]
         public ActionResult<ICustomerDTO> GetCustomer(int id)
         {
             var customer = _customerService.GetCustomer(id);
-            
-            return customer == null ? NotFound() : Ok(customer);
+            switch (customer.Result)
+            {
+                case ICustomerDTO result:
+                    return Ok(result);
+                default:
+                    return BadRequest(customer.Result);
+            }
         }
 
-        [HttpGet(Name = "GetCustomers")]
+        [HttpGet]
+        [Route("Api/[controller]/GetCustomers")]
         public ActionResult<IList<ICustomerDTO>> GetCustomers()
         {
             var customer = _customerService.GetCustomers();
-
-            return customer == null ? NotFound() : Ok(customer);
+            switch (customer.Result)
+            {
+                case ICustomerDTO result:
+                    return Ok(result);
+                default:
+                    return BadRequest(customer.Result);
+            }
         }
 
-        [HttpPost(Name = "PostCustomers")]
-        public ActionResult PostCustomers([FromBody]ICustomerDTO newCustomer)
+        [HttpPost]
+        [Route("Api/[controller]/PostCustomers")]
+        public ActionResult PostCustomer([FromBody]CustomerDTO newCustomer)
         {
             var customer = _customerService.PostCustomer(newCustomer);
 
-            return customer == null ? NotFound() : Ok(customer);
+            switch (customer.Result)
+            {
+                case ICustomerDTO result:
+                    return Ok(result);
+                default:
+                    return BadRequest(customer.Result);
+            }
         }
 
-        [HttpPut(Name = "PutCustomer")]
-        public ActionResult PutCustomer(int id,[FromBody]ICustomerDTO updateCustomer)
+        [HttpPut]
+        [Route("Api/[controller]/PutCustomer/{id}")]
+        public ActionResult PutCustomer(int id,[FromBody]CustomerDTO updateCustomer)
         {
             var customer = _customerService.PutCustomer(id, updateCustomer);
 
-            return customer == null ? NotFound() : Ok(customer);
+            switch (customer.Result)
+            {
+                case ICustomerDTO result:
+                    return Ok(result);
+                default:
+                    return BadRequest(customer.Result);
+            }
         }
 
-        [HttpDelete(Name = "DeleteCustomer")]
+        [HttpDelete]
+        [Route("Api/[controller]/DeleteCustomer/{id}")]
         public ActionResult DeleteCustomer(int id)
         {
-            var customer = _customerService.GetCustomer(id);
+            var customer = _customerService.DeleteCustomer(id);
 
-            return customer == null ? NotFound() : Ok(customer);
+            switch (customer.Result)
+            {
+                case ICustomerDTO result:
+                    return Ok(result);
+                default:
+                    return BadRequest(customer.Result);
+            }
         }
     }
 }
