@@ -9,5 +9,6 @@
 	[Address] varchar(50) NOT NULL,
 	[City] varchar(50) NOT NULL,
 	[Region] varchar(50),
-	[Country] varchar(50) NOT NULL
+	[Country] varchar(50) NOT NULL,
+	[PostalCode] varchar(50) NOT NULL
 )

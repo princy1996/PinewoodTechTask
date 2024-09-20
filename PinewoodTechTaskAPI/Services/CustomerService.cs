@@ -21,7 +21,7 @@ namespace PinewoodTechTaskAPI.Services
             {
                 DynamicParameters dyn = new DynamicParameters();
                 dyn.Add("id", id);
-                string sql = $"SELECT * FROM dbo.Customers WHERE Id = @id"; 
+                string sql = $"SELECT * FROM dbo.Customers WHERE CustomerId = @id"; 
                 try
                 {
                     var result = await transaction.Connection.QuerySingleAsync<CustomerDTO>(sql: sql,dyn, transaction: transaction);
@@ -82,12 +82,13 @@ namespace PinewoodTechTaskAPI.Services
                     dyn.Add("city", updateCustomer.City);
                     dyn.Add("region", updateCustomer.Region);
                     dyn.Add("country", updateCustomer.Country);
+                    dyn.Add("postCode", updateCustomer.PostalCode);
 
                     string sql = $"UPDATE dbo.Customers SET " +
                         $"FirstName = @firstName , LastName = @lastName, Email = @email," +
                         $"PhoneNumber = @phone, Address = @address, city = @city," +
-                        $"region= @region, Country = @country " +
-                        $"WHERE Id = @id;";
+                        $"region= @region, Country = @country, PostalCode= @postCode " +
+                        $"WHERE CustomerId = @id;";
                     var result = await transaction.Connection.ExecuteAsync(sql, dyn, transaction: transaction);
 
                     transaction.Commit();
@@ -124,10 +125,12 @@ namespace PinewoodTechTaskAPI.Services
                     dyn.Add("city", newCustomer.City);
                     dyn.Add("region", newCustomer.Region);
                     dyn.Add("country", newCustomer.Country);
+                    dyn.Add("postCode", newCustomer.PostalCode);
+
 
                     string sql = $"INSERT INTO dbo.Customers " +
-                        $"(CustomerId, FirstName, LastName, Email, PhoneNumber, Address, city, region, Country) " +
-                        $"Values(@customerId, @firstName , @lastName, @email, @phone, @address, @city, @region, @country);";
+                        $"(CustomerId, FirstName, LastName, Email, PhoneNumber, Address, city, region, Country, PostalCode) " +
+                        $"Values(@customerId, @firstName , @lastName, @email, @phone, @address, @city, @region, @country, @postCode);";
                     var result = await transaction.Connection.ExecuteAsync(sql, dyn, transaction);
 
                     transaction.Commit();

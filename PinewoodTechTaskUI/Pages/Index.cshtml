@@ -16,6 +16,7 @@
         <th>City</th>
         <th>Region</th>
         <th>Country</th>
+        <th>Post Code</th>
     </tr>
     @foreach (var customer in Model.customers)
     {
@@ -29,9 +30,11 @@
             <td>@customer.City</td>
             <td>@customer.Region</td>
             <td>@customer.Country</td>
+            <td>@customer.PostalCode</td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@customer.CustomerId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@customer.CustomerId">Details</a> |
+                <a asp-page="./Update" asp-route-id="@customer.CustomerId" class="btn btn-primary">Edit</a> 
+            </td>
+            <td>
                 <form asp-page-handler="Delete" method="post" asp-route-id="@customer.CustomerId" onclick="return confirm('Are you sure you want to delete?');">
                     <button type="submit" class="btn btn-danger">Delete</button>
                 </form>

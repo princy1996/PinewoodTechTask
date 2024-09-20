@@ -70,8 +70,8 @@ namespace PinewoodTechTaskAPI.Controllers
 
             switch (customer.Result)
             {
-                case ICustomerDTO result:
-                    return Ok(result);
+                case int result:
+                    return Ok($"id: {id} has been updated");
                 default:
                     return BadRequest(customer.Result);
             }
