@@ -12,6 +12,7 @@ namespace PinewoodTechTaskUI.Pages
         private readonly IConfig _config;
 
         public List<CustomerDTO> customers = new List<CustomerDTO>();
+
         public IndexModel(ILogger<IndexModel> logger, IConfig config)
         {
             _logger = logger;

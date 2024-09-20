@@ -2,7 +2,7 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Customers";
-    ViewData["Error"] = "No Error";
+    ViewData["Error"] = null;
 }
 
 <table class="table">
@@ -38,6 +38,8 @@
     }
 </table>
 
+<a class="btn btn-primary" asp-page="Create">Create</a>
+
 @if (ViewBag.Error != null)
 {
     <script type="text/javascript">
@@ -45,4 +47,4 @@
             alert("@ViewBag.Error");
         };
     </script>
-}  
+} 
