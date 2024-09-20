@@ -28,3 +28,9 @@ E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\refint\Pinewood
 E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\PinewoodTechTaskUI.pdb
 E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\PinewoodTechTaskUI.genruntimeconfig.cache
 E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\ref\PinewoodTechTaskUI.dll
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\PinewoodTechTaskUI.csproj.AssemblyReference.cache
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\PinewoodTechTaskUI.sourcelink.json
+E:\Projects\PinewoodTechTask\PinewoodTechTaskUI\obj\Debug\net8.0\Pinewood.3F9A2336.Up2Date

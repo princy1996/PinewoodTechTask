@@ -35,12 +35,12 @@ namespace PinewoodTechTaskAPI.Controllers
 
         [HttpGet]
         [Route("Api/[controller]/GetCustomers")]
-        public ActionResult<IList<ICustomerDTO>> GetCustomers()
+        public ActionResult<IList<CustomerDTO>> GetCustomers()
         {
             var customer = _customerService.GetCustomers();
             switch (customer.Result)
             {
-                case ICustomerDTO result:
+                case IList<CustomerDTO> result:
                     return Ok(result);
                 default:
                     return BadRequest(customer.Result);
