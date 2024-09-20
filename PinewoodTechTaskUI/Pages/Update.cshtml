@@ -1,0 +1,68 @@
+﻿@page "{id:int?}"
+@model PinewoodTechTaskUI.Pages.UpdateModel
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="customer.CustomerId" class="control-label"></label>
+                <input asp-for="customer.CustomerId" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.FirstName" class="control-label"></label>
+                <input asp-for="customer.FirstName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.LastName" class="control-label"></label>
+                <input asp-for="customer.LastName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.Email" class="control-label"></label>
+                <input type="email" asp-for="customer.Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.Address" class="control-label"></label>
+                <input asp-for="customer.Address" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.City" class="control-label"></label>
+                <input asp-for="customer.City" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.Region" class="control-label"></label>
+                <input asp-for="customer.Region" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.PostalCode" class="control-label"></label>
+                <input asp-for="customer.PostalCode" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.Country" class="control-label"></label>
+                <input asp-for="customer.Country" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.PhoneNumber" class="control-label"></label>
+                <input type="number" asp-for="customer.PhoneNumber" class="form-control" />
+            </div>
+            <div class="form-group- mt-2">
+                <input type="submit" value="Update" class="btn btn-primary" />
+                <a class="btn btn-success" asp-page="Index">Back to Customers</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+}

@@ -1,7 +1,11 @@
-var builder = WebApplication.CreateBuilder(args);
+using PinewoodTechTaskUI.Config;
 
+var builder = WebApplication.CreateBuilder(args);
+var config = new Config();
 // Add services to the container.
+builder.Configuration.Bind("AppConfig", config);
 builder.Services.AddRazorPages();
+builder.Services.AddServices(config);
 
 var app = builder.Build();
 
