@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PinewoodTechTaskAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a2636be7ea223bb93468db04ce7d5a97a73f2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dda49ebb62a3716b3e9232afe669f2a6b466e02")]
 [assembly: System.Reflection.AssemblyProductAttribute("PinewoodTechTaskAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PinewoodTechTaskAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

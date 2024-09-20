@@ -5,3 +5,4 @@ Start Up:
 * This should be pasted in the appsetting.development.json file under AppConfig > ConnectionString in the PinewoodTechTaskAPI Project.
 * Next go to the PinewoodTechTaskUI Project and Confirm the port is correct.
 * Please ensure both projects are set to startup in Solution Property Pages > Startup Project >  Multiple Startup Projects
+* Next run the AddData.SQL file if no data is present at start

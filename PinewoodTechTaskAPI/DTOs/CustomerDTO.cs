@@ -28,7 +28,7 @@ namespace PinewoodTechAPI.DTOs
         public required int PhoneNumber { get; set; }
         public required string Address { get; set; }
         public required string City { get; set; }
-        public required string Region { get; set; }
+        public string? Region { get; set; }
         public required string PostalCode { get; set; }
         public required string Country { get; set; }
     }
