@@ -85,8 +85,8 @@ namespace PinewoodTechTaskAPI.Controllers
 
             switch (customer.Result)
             {
-                case ICustomerDTO result:
-                    return Ok(result);
+                case int result:
+                    return Ok($"Number of rows deleted: {result}. Delete Successful");
                 default:
                     return BadRequest(customer.Result);
             }

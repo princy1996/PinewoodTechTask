@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Projects\\PinewoodTechTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|solutionrelative:pinewoodtechtaskui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74F88F6-FA12-49BA-B495-DE3E87BCB248}|PinewoodTechTaskAPI\\PinewoodTechTaskAPI.csproj|solutionrelative:pinewoodtechtaskapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B67827E9-B013-45EB-86E4-B57EAC9333F1}|PinewoodTechTaskUI\\PinewoodTechTaskUI.csproj|e:\\projects\\pinewoodtechtask\\pinewoodtechtaskui\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "RelativeToolTip": "PinewoodTechTaskAPI\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAewJ4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:29:08.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Pages\\Create.cshtml.cs",
@@ -67,33 +84,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Create.cshtml",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Pages\\Create.cshtml",
               "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Create.cshtml",
               "RelativeToolTip": "PinewoodTechTaskUI\\Pages\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-20T15:57:51.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
               "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "PinewoodTechTaskAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowDQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwFAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T14:39:51.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IConfig.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Config\\IConfig.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Config\\IConfig.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Config\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Config\\ServiceCollectionExtension.cs",
@@ -113,12 +130,11 @@
               "RelativeToolTip": "PinewoodTechTaskUI\\Config\\ServiceCollectionExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:50:22.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T13:50:22.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Program.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Program.cs",
@@ -126,12 +142,11 @@
               "RelativeToolTip": "PinewoodTechTaskUI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:49:15.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T13:49:15.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\appsettings.Development.json",
@@ -139,12 +154,11 @@
               "RelativeToolTip": "PinewoodTechTaskUI\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T13:48:28.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T13:48:28.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CustomerDTO.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\DTOs\\CustomerDTO.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\DTOs\\CustomerDTO.cs",
@@ -157,26 +171,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Pages\\Index.cshtml.cs",
               "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "PinewoodTechTaskUI\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T13:45:30.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "PinewoodTechTaskUI\\Pages\\Index.cshtml",
               "ToolTip": "E:\\Projects\\PinewoodTechTask\\PinewoodTechTaskUI\\Pages\\Index.cshtml",
               "RelativeToolTip": "PinewoodTechTaskUI\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-20T13:44:50.349Z",
               "EditorCaption": ""

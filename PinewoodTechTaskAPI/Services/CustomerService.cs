@@ -156,7 +156,7 @@ namespace PinewoodTechTaskAPI.Services
                     DynamicParameters dyn = new DynamicParameters();
                     dyn.Add("id", id);
 
-                    string sql = $"DELETE FROM dbo.Customers WHERE Id = @id";
+                    string sql = $"DELETE FROM dbo.Customers WHERE CustomerId = @id";
                     var result = await transaction.Connection.ExecuteAsync(sql, dyn, transaction);
 
                     transaction.Commit();

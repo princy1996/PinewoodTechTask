@@ -39,5 +39,23 @@ namespace PinewoodTechTaskUI.Pages
 
             return Page();
         }
+
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
+        {
+            HttpClient httpClient = new HttpClient();
+            HttpResponseMessage response = await httpClient.DeleteAsync(_config.ConnectionString + $"DeleteCustomer/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                ViewData["Delete"] = "Delete Successful";
+                await GetCustomers();
+
+            }
+            else
+            {
+                ViewData["Delete"] = response.ReasonPhrase;
+            }
+
+            return Page();
+        }
     }
 }
